@@ -43,40 +43,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
 
 html {
     font-family: 'Roboto Mono', monospace;
+    max-height: 100%;
 }
-
-h1 {
-    font-family: 'Chelsea Market', cursive; 
+nav {
+    margin: 5% 10%;
+    text-align: center;
 }
-
+nav a {
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    max-width: 15%;
+    padding: 1%;
+    line-height: 100%;
+}
 .plan {
     background-color: #FF764E;
-    color: white;
 }
-
 .learn {
     background-color: #5ED3EB;
-    color: white;
 }
-
 .practice {
     background-color: #FFCD69;
-    color: white;
 }
-
 .about {
     color: white;
     background-color: #DDB9A3;
+    margin: 5%;
 }
-
 footer {
     background-color: #F9E7DC;
 }
-
 span {
     font-weight: bold;
+}
+header div {
+    display: inline-block;
+}
+.header-img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    margin: auto;
+}
+header {
+    text-align: center;
+    margin: auto;
+}
+.header-text p {
+    margin: auto;
+    display: block;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    margin: auto;
+    display: block;
+}
+.about p {
+    text-align: center;
+    margin: 1%;
+    padding: 1% 0;
 }
