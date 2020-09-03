@@ -43,6 +43,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 * {
     box-sizing: border-box;
     max-width: 100%;
@@ -53,24 +55,21 @@ html {
     max-height: 100%;
 }
 nav {
-    margin: 5% auto;
     text-align: center;
-    width: 100%;
-}
-.navbar {
-    display: inline-block;
-    margin:0 auto;
-    text-align: center;
-    width: 100%;
+    margin: 2% auto;
+    display: block;
 }
 nav a {
+    vertical-align: middle;
+    display: inline-block;
     color: white;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    margin: 0 auto;
-    display: inline-block;
-    width: 15%;
+    padding: 5px;
+    height: 65px;
+    width: 100px;
+    margin: 0 7%;
 }
 .plan {
     background-color: #FF764E;
@@ -94,7 +93,7 @@ span {
 }
 .header-img {
     display: inline-block;
-    margin: auto;
+    margin:2% auto;
     width: 20%;
 }
 .header-img img {
@@ -140,8 +139,12 @@ div p {
     display: block;
     margin: 5%;
 }
+.fire-info {
+    margin: 0 0 5% 0;
+}
 .fire-icon,.rv-icon {
-    width: 50%;
+    width: 40%;
+    margin: 5%;
 }
 footer {
     margin: 10% 0 0 0;
