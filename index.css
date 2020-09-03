@@ -53,18 +53,24 @@ html {
     max-height: 100%;
 }
 nav {
-    margin: 5% 10%;
+    margin: 5% auto;
     text-align: center;
+    width: 100%;
+}
+.navbar {
+    display: inline-block;
+    margin:0 auto;
+    text-align: center;
+    width: 100%;
 }
 nav a {
     color: white;
-    display: inline-block;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    max-width: 15%;
-    padding: 1%;
-    margin: 0 8%;
+    margin: 0 auto;
+    display: inline-block;
+    width: 15%;
 }
 .plan {
     background-color: #FF764E;
@@ -86,38 +92,65 @@ footer {
 span {
     font-weight: bold;
 }
-header div {
-    display: inline-block;
-}
 .header-img {
     display: inline-block;
-    width: 20%;
-    border-radius: 50%;
     margin: auto;
+    width: 20%;
+}
+.header-img img {
+    border-radius: 50%;
+}
+.title-info {
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+.title-info div {
+    display: block;
+    height: 100%;
 }
 header {
     text-align: center;
-    margin: auto;
-}
-.header-text p {
-    margin: auto;
-    display: block;
+    display: inline-block;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
-    margin: auto;
-    display: block;
+    height: 100%;
+    vertical-align: top;
+    font-size: 60px;
+}
+div p {
+    margin: 5% 15%;
+}
+#p2 {
+    margin: 0 25%;
 }
 .about p {
     text-align: center;
     margin: 1%;
     padding: 1% 0;
 }
-.fire-info {
-    display: block;
+.info {
+    width: 25%;
+    margin: 0 auto;
     text-align: center;
 }
-.camp-info {
-    display: block;
+.fire-info,.camp-info {
     text-align: center;
+    display: block;
+    margin: 5%;
+}
+.fire-icon,.rv-icon {
+    width: 50%;
+}
+footer {
+    margin: 10% 0 0 0;
+    padding-bottom: 1%;
+    height: 10%;
+}
+.footer-img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    height: 300px;
 }
